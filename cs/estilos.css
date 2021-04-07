@@ -1,0 +1,164 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+font-variant: small-caps;
+}
+#cbzcont{
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background-color:  #A9F5F2;
+}
+#hed{
+	width: 1100px;
+	position: relative; 
+	left:10%;
+    top: 20px;
+     border-top: 5px double blue;
+     border-right: 5px double green;
+     border-bottom: 5px double green;
+     border-left: 5px double blue;
+     background: #71CFF5;
+     border-radius: 5px;
+}
+#frase  {  
+
+	position: relative;
+
+}
+#frase img{
+    width: 980px;
+    height:100px;
+    margin-left: 200px;
+}
+
+#frase .frs{
+	width: 1000px;
+	position:absolute; 
+	left:13%;
+    top: 15px;
+    color:#F4F4F4;
+   padding: 20px 30px 20px 80px;
+}
+
+#hed{
+	position: relative;
+}
+#hed img{
+	width: 100%;
+	height: 100%;
+	  }
+#hed .cont{
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	color:#FFFF;
+	transform: translate(-10%) translateY(60%);
+	font-size: 30px;
+    background: rgba(0,0,0,.7);
+	border-radius:6px;
+	margin:auto
+    margin-top:100px;
+	width:460px;
+	padding:30px;
+
+}
+
+#hed h1{
+	font-size:30px;
+}
+
+
+.fotos{
+	width:100%;
+
+  }
+ .fotos img{
+ 	position:relative;
+ }
+img{
+	
+	display:block;
+
+}
+
+
+.fotos a{
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+
+}
+
+.contain1 {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.izquierdafo{
+	width: 50%;
+}
+
+.derechafo{
+	width: 50%;
+}
+
+.contain2 {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.izquierdafot{
+	width: 50%;
+}
+
+.derechafot{
+	width: 50%;
+}
+
+
+
+#playa{
+    position: relative;
+	background-color:#2EFE2E;
+	width: 400px;
+	height:300px; 
+	margin: auto;
+    
+}
+#desierto{
+	position:relative; 
+	background-color:#2EFE2E;
+	width: 400px;
+	height:300px; 
+	margin: auto;
+
+}
+#montaña {  
+	position:relative; 
+	background-color:#2EFE2E;
+	width: 400px;
+	height:300px; 
+	margin: auto;
+
+
+}
+#turisticos{
+	position:relative; 
+	background-color:#2EFE2E;
+	width: 400px;
+	height:300px; 
+	margin: auto;
+
+}
+
+.desc{
+	margin: 30px;
+}
+
+

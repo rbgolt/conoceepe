@@ -1,0 +1,50 @@
+* {
+			margin:0px;
+			padding:0px; 
+		}
+		body{
+			background:url(https://enviajes.cl/wp-content/uploads/2013/10/Lugares-turisticos-de-Peru-Machupichu.jpg);
+			background-repeat:no-repeat; 
+			background-size:cover;	
+
+		}
+		form{
+			color:#3ADF00; 
+			background: rgba(0,0,0,.7);
+			border-radius:5px
+		    margin:auto;
+		    margin-top:100px;
+			width:460px;
+			padding:30px
+
+		}
+		form h1{
+			text-align:center;
+			font-weight:normal;
+			margin:5px; 
+		}
+		textarea{
+			resize:vertical;
+			max-height:150px;
+			min-height:50px;
+
+		}
+
+	    input, textarea{
+	    	margin-bottom:10px; 
+	    	padding:10px;
+	    	border-radius:5px;  
+	     }
+	     button{
+              background:#3ADF00;
+              width:150px;
+              padding:5px;
+	     }
+	     .cajas{
+          border-left:10px solid #A9F5A9;
+          border-right:10px solid #A9F5A9;
+	     }
+	     .cajas:hover ,.cajas:focus{
+	      border-left:10px solid #2EFE2E;
+          border-right:10px solid #2EFE2E;
+	     }

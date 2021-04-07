@@ -1,0 +1,100 @@
+*{
+	margin:0px;
+	padding:0.5px;
+	box-sizing:border-box;
+	font-family: sans-serif;
+}
+
+footer{
+	width: 100%;
+	background:#202020;
+	color:#fff;
+	padding:40px;
+	
+
+}
+
+.generalft{
+      width: 100%;
+      max-width:1100px;
+      display: flex;
+      margin: auto;
+      justify-content: space-between;
+}
+
+.column1{
+	max-width:400px;
+
+}
+.column1 h1{
+	font-size: 20px;
+
+}
+.column1 p{
+	font-size: 14px;
+	color: #C7C7C7;
+	margin-top:20px;	
+}
+.column2{
+	max-width: 400px;
+}
+.column2 h1{
+	 font-size: 20px;
+}
+.column2 .fac{
+     margin-top: 20px; 
+     display: flex;
+}
+.fac img{
+	width: 36px;
+	height: 36px;
+}
+.fac a{
+	text-decoration: none;
+}
+.fac label{
+	margin-top:10px;
+	margin-left: 20px;
+	color: #C7C7C7;
+}
+.column3{
+	max-width: 400px;
+
+}
+.column3 h1{
+	font-size: 22px;
+
+}
+.contc{
+	margin-top: 20px;
+	display: flex;
+
+}
+.contc img{
+      width: 36px;
+      height: 36px;
+
+}
+
+.contc label{
+	margin-top: 10px;
+	margin-left: 20px;
+   max-width: 140px;
+
+}
+
+@media screen and (max-width:1100px){
+	 .generalft{
+          flex-wrap: wrap;
+            
+	 }
+     .column1{
+     	max-width: 100%;
+     }
+
+	 .column2,
+	 .column3{
+	 	margin-top: 40px;
+	 }
+	
+}
